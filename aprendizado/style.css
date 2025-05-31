@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 1, 1);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(255, 0, 221);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(180, 0, 156);
+}
+
+.olavomain img {
+    width: 1500px;
+    height: 510px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
